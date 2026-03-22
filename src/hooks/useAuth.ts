@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Auth } from 'aws-amplify';
+import { getCurrentUser, signIn as amplifySignIn, signOut as amplifySignOut } from 'aws-amplify/auth';
 
 const useAuth = () => {
     const [user, setUser] = useState<any>(null);
@@ -8,7 +8,7 @@ const useAuth = () => {
     useEffect(() => {
         const fetchUser = async () => {
             try {
-                const currentUser = await Auth.currentAuthenticatedUser();
+                const currentUser = await getCurrentUser();
                 setUser(currentUser);
             } catch (error) {
                 setUser(null);
@@ -21,11 +21,11 @@ const useAuth = () => {
     }, []);
 
     const signIn = async (username: string, password: string) => {
-        return await Auth.signIn(username, password);
+        return await amplifySignIn({ username, password });
     };
 
     const signOut = async () => {
-        await Auth.signOut();
+        await amplifySignOut();
         setUser(null);
     };
 
