@@ -1,0 +1,580 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Bluetooth Headphones",
+      "description": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and superior sound quality. Perfect for music lovers and professionals alike.",
+      "shortDescription": "Premium wireless headphones with ANC",
+      "price": 12999,
+      "compareAtPrice": 19999,
+      "category": "electronics",
+      "categories": ["electronics", "audio"],
+      "images": [
+        {
+          "id": "1-1",
+          "url": "/images/products/headphones-1.jpg",
+          "alt": "Wireless Headphones Front View",
+          "isPrimary": true
+        },
+        {
+          "id": "1-2",
+          "url": "/images/products/headphones-2.jpg",
+          "alt": "Wireless Headphones Side View",
+          "isPrimary": false
+        }
+      ],
+      "stock": 45,
+      "sku": "WBH-001",
+      "variants": [{ "id": "v1-color", "type": "color", "options": ["Black", "Silver", "Blue"] }],
+      "specifications": {
+        "Battery Life": "30 hours",
+        "Connectivity": "Bluetooth 5.0",
+        "Noise Cancellation": "Active",
+        "Weight": "250g"
+      },
+      "tags": ["wireless", "bluetooth", "noise-cancelling", "premium"],
+      "isActive": true,
+      "createdAt": "2026-01-15T10:00:00Z",
+      "updatedAt": "2026-02-20T14:30:00Z",
+      "rating": 4.5
+    },
+    {
+      "id": "2",
+      "name": "Smart Watch Pro",
+      "description": "Advanced smartwatch with health tracking, GPS, water resistance, and 7-day battery life. Monitor your fitness goals and stay connected on the go.",
+      "shortDescription": "Advanced smartwatch with health tracking",
+      "price": 24999,
+      "compareAtPrice": null,
+      "category": "electronics",
+      "categories": ["electronics", "wearables"],
+      "images": [
+        {
+          "id": "2-1",
+          "url": "/images/products/smartwatch-1.jpg",
+          "alt": "Smart Watch Front View",
+          "isPrimary": true
+        },
+        {
+          "id": "2-2",
+          "url": "/images/products/smartwatch-2.jpg",
+          "alt": "Smart Watch on Wrist",
+          "isPrimary": false
+        }
+      ],
+      "stock": 32,
+      "sku": "SWP-002",
+      "variants": [
+        { "id": "v2-size", "type": "size", "options": ["42mm", "46mm"] },
+        { "id": "v2-color", "type": "color", "options": ["Black", "Silver", "Rose Gold"] }
+      ],
+      "specifications": {
+        "Display": "1.9\" AMOLED",
+        "Battery Life": "7 days",
+        "Water Resistance": "50m",
+        "GPS": "Built-in"
+      },
+      "tags": ["smartwatch", "fitness", "health", "gps"],
+      "isActive": true,
+      "createdAt": "2026-01-10T08:00:00Z",
+      "updatedAt": "2026-02-18T11:20:00Z",
+      "rating": 4.6
+    },
+    {
+      "id": "3",
+      "name": "Minimalist Leather Backpack",
+      "description": "Handcrafted genuine leather backpack with laptop compartment, multiple pockets, and ergonomic design. Perfect for work, travel, or everyday use.",
+      "shortDescription": "Handcrafted leather backpack",
+      "price": 15999,
+      "compareAtPrice": null,
+      "category": "bags",
+      "categories": ["bags", "accessories"],
+      "images": [
+        {
+          "id": "3-1",
+          "url": "/images/products/backpack-1.jpg",
+          "alt": "Leather Backpack Front",
+          "isPrimary": true
+        },
+        {
+          "id": "3-2",
+          "url": "/images/products/backpack-2.jpg",
+          "alt": "Leather Backpack Open",
+          "isPrimary": false
+        }
+      ],
+      "stock": 18,
+      "sku": "MLB-003",
+      "variants": [{ "id": "v3-color", "type": "color", "options": ["Brown", "Black", "Tan"] }],
+      "specifications": {
+        "Material": "Genuine Leather",
+        "Laptop Compartment": "Up to 15\"",
+        "Capacity": "20L",
+        "Dimensions": "45 x 30 x 15 cm"
+      },
+      "tags": ["leather", "backpack", "minimalist", "laptop"],
+      "isActive": true,
+      "createdAt": "2026-01-05T09:30:00Z",
+      "updatedAt": "2026-02-15T16:45:00Z",
+      "rating": 4.7
+    },
+    {
+      "id": "4",
+      "name": "Organic Cotton T-Shirt",
+      "description": "Soft and breathable 100% organic cotton t-shirt. Ethically made with eco-friendly dyes. A wardrobe essential that's comfortable and sustainable.",
+      "shortDescription": "100% organic cotton t-shirt",
+      "price": 3499,
+      "compareAtPrice": 4999,
+      "category": "clothing",
+      "categories": ["clothing", "men", "women"],
+      "images": [
+        {
+          "id": "4-1",
+          "url": "/images/products/tshirt-1.jpg",
+          "alt": "Cotton T-Shirt Front",
+          "isPrimary": true
+        },
+        {
+          "id": "4-2",
+          "url": "/images/products/tshirt-2.jpg",
+          "alt": "Cotton T-Shirt Back",
+          "isPrimary": false
+        }
+      ],
+      "stock": 120,
+      "sku": "OCT-004",
+      "variants": [
+        { "id": "v4-size", "type": "size", "options": ["XS", "S", "M", "L", "XL", "XXL"] },
+        {
+          "id": "v4-color",
+          "type": "color",
+          "options": ["White", "Black", "Navy", "Gray", "Olive"]
+        }
+      ],
+      "specifications": {
+        "Material": "100% Organic Cotton",
+        "Fit": "Regular",
+        "Care": "Machine wash cold",
+        "Origin": "Made in Portugal"
+      },
+      "tags": ["organic", "cotton", "sustainable", "eco-friendly"],
+      "isActive": true,
+      "createdAt": "2026-01-20T12:00:00Z",
+      "updatedAt": "2026-02-22T09:15:00Z",
+      "rating": 4.4
+    },
+    {
+      "id": "5",
+      "name": "Stainless Steel Water Bottle",
+      "description": "Double-walled vacuum insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours. Leak-proof and eco-friendly.",
+      "shortDescription": "Insulated stainless steel bottle",
+      "price": 2999,
+      "compareAtPrice": null,
+      "category": "accessories",
+      "categories": ["accessories", "lifestyle"],
+      "images": [
+        {
+          "id": "5-1",
+          "url": "/images/products/bottle-1.jpg",
+          "alt": "Water Bottle",
+          "isPrimary": true
+        }
+      ],
+      "stock": 85,
+      "sku": "SSWB-005",
+      "variants": [
+        { "id": "v5-size", "type": "size", "options": ["500ml", "750ml", "1L"] },
+        { "id": "v5-color", "type": "color", "options": ["Black", "White", "Blue", "Pink"] }
+      ],
+      "specifications": {
+        "Material": "18/8 Stainless Steel",
+        "Insulation": "Double-wall vacuum",
+        "Cold Retention": "24 hours",
+        "Hot Retention": "12 hours"
+      },
+      "tags": ["water-bottle", "insulated", "eco-friendly", "reusable"],
+      "isActive": true,
+      "createdAt": "2026-01-12T14:20:00Z",
+      "updatedAt": "2026-02-19T10:30:00Z",
+      "rating": 4.5
+    },
+    {
+      "id": "6",
+      "name": "Mechanical Keyboard",
+      "description": "Premium mechanical keyboard with hot-swappable switches, RGB backlighting, and aluminum frame. Perfect for typing enthusiasts and gamers.",
+      "shortDescription": "Premium mechanical keyboard with RGB",
+      "price": 14999,
+      "compareAtPrice": null,
+      "category": "electronics",
+      "categories": ["electronics", "computers"],
+      "images": [
+        {
+          "id": "6-1",
+          "url": "/images/products/keyboard-1.jpg",
+          "alt": "Mechanical Keyboard",
+          "isPrimary": true
+        },
+        {
+          "id": "6-2",
+          "url": "/images/products/keyboard-2.jpg",
+          "alt": "Keyboard RGB Lighting",
+          "isPrimary": false
+        }
+      ],
+      "stock": 28,
+      "sku": "MK-006",
+      "variants": [
+        { "id": "v6-size", "type": "size", "options": ["60%", "TKL", "Full-size"] },
+        { "id": "v6-switch", "type": "material", "options": ["Red", "Blue", "Brown"] }
+      ],
+      "specifications": {
+        "Switches": "Hot-swappable",
+        "Connection": "USB-C / Wireless",
+        "Battery": "4000mAh",
+        "Keycaps": "Double-shot PBT"
+      },
+      "tags": ["keyboard", "mechanical", "rgb", "gaming"],
+      "isActive": true,
+      "createdAt": "2026-01-08T11:00:00Z",
+      "updatedAt": "2026-02-21T15:00:00Z",
+      "rating": 4.7
+    },
+    {
+      "id": "7",
+      "name": "The Art of Programming",
+      "description": "Comprehensive guide to software development covering algorithms, data structures, design patterns, and best practices. Essential reading for developers of all levels.",
+      "shortDescription": "Comprehensive programming guide",
+      "price": 5999,
+      "compareAtPrice": 7999,
+      "category": "books",
+      "categories": ["books", "education"],
+      "images": [
+        {
+          "id": "7-1",
+          "url": "/images/products/book-programming-1.jpg",
+          "alt": "The Art of Programming Book",
+          "isPrimary": true
+        }
+      ],
+      "stock": 65,
+      "sku": "BOOK-007",
+      "variants": [],
+      "specifications": {
+        "Author": "Donald E. Knuth",
+        "Pages": "672",
+        "Publisher": "Addison-Wesley",
+        "Language": "English",
+        "ISBN": "978-0201896831"
+      },
+      "tags": ["programming", "algorithms", "computer-science", "education"],
+      "isActive": true,
+      "createdAt": "2026-01-03T10:00:00Z",
+      "updatedAt": "2026-02-10T08:30:00Z",
+      "rating": 4.9
+    },
+    {
+      "id": "8",
+      "name": "Running Shoes Pro",
+      "description": "Lightweight performance running shoes with responsive cushioning and breathable mesh upper. Designed for both casual runners and marathon athletes.",
+      "shortDescription": "Performance running shoes",
+      "price": 12999,
+      "compareAtPrice": null,
+      "category": "sports",
+      "categories": ["sports", "footwear", "men", "women"],
+      "images": [
+        {
+          "id": "8-1",
+          "url": "/images/products/running-shoes-1.jpg",
+          "alt": "Running Shoes Side View",
+          "isPrimary": true
+        },
+        {
+          "id": "8-2",
+          "url": "/images/products/running-shoes-2.jpg",
+          "alt": "Running Shoes Top View",
+          "isPrimary": false
+        },
+        {
+          "id": "8-3",
+          "url": "/images/products/running-shoes-3.jpg",
+          "alt": "Running Shoes Sole",
+          "isPrimary": false
+        }
+      ],
+      "stock": 42,
+      "sku": "RSP-008",
+      "variants": [
+        {
+          "id": "v8-size",
+          "type": "size",
+          "options": ["US 7", "US 8", "US 9", "US 10", "US 11", "US 12"]
+        },
+        { "id": "v8-color", "type": "color", "options": ["Black/White", "Blue/Orange", "Gray/Red"] }
+      ],
+      "specifications": {
+        "Upper Material": "Engineered Mesh",
+        "Sole": "Rubber with Air Cushion",
+        "Weight": "280g",
+        "Drop": "10mm"
+      },
+      "tags": ["running", "shoes", "sports", "athletic"],
+      "isActive": true,
+      "createdAt": "2026-01-18T14:00:00Z",
+      "updatedAt": "2026-02-23T11:00:00Z",
+      "rating": 4.5
+    },
+    {
+      "id": "9",
+      "name": "Wireless Mouse",
+      "description": "Ergonomic wireless mouse with precision tracking, adjustable DPI, and long battery life. Perfect for work and gaming.",
+      "shortDescription": "Ergonomic wireless mouse",
+      "price": 4999,
+      "compareAtPrice": 6999,
+      "category": "electronics",
+      "categories": ["electronics", "computers"],
+      "images": [
+        {
+          "id": "9-1",
+          "url": "/images/products/mouse-1.jpg",
+          "alt": "Wireless Mouse",
+          "isPrimary": true
+        },
+        {
+          "id": "9-2",
+          "url": "/images/products/mouse-2.jpg",
+          "alt": "Wireless Mouse Side",
+          "isPrimary": false
+        }
+      ],
+      "stock": 78,
+      "sku": "WM-009",
+      "variants": [{ "id": "v9-color", "type": "color", "options": ["Black", "White", "Silver"] }],
+      "specifications": {
+        "Connectivity": "2.4GHz Wireless / Bluetooth",
+        "DPI": "800-3200 adjustable",
+        "Battery": "18 months",
+        "Buttons": "6 programmable"
+      },
+      "tags": ["mouse", "wireless", "ergonomic", "productivity"],
+      "isActive": true,
+      "createdAt": "2026-01-22T09:00:00Z",
+      "updatedAt": "2026-02-24T16:00:00Z",
+      "rating": 4.3
+    },
+    {
+      "id": "10",
+      "name": "Yoga Mat Premium",
+      "description": "Extra thick eco-friendly yoga mat with non-slip surface. Provides excellent cushioning and support for all types of yoga and floor exercises.",
+      "shortDescription": "Extra thick eco-friendly yoga mat",
+      "price": 3999,
+      "compareAtPrice": null,
+      "category": "sports",
+      "categories": ["sports", "fitness", "lifestyle"],
+      "images": [
+        {
+          "id": "10-1",
+          "url": "/images/products/yoga-mat-1.jpg",
+          "alt": "Yoga Mat Rolled",
+          "isPrimary": true
+        },
+        {
+          "id": "10-2",
+          "url": "/images/products/yoga-mat-2.jpg",
+          "alt": "Yoga Mat Unrolled",
+          "isPrimary": false
+        }
+      ],
+      "stock": 55,
+      "sku": "YMP-010",
+      "variants": [
+        {
+          "id": "v10-color",
+          "type": "color",
+          "options": ["Purple", "Blue", "Green", "Pink", "Black"]
+        }
+      ],
+      "specifications": {
+        "Material": "TPE (Thermoplastic Elastomer)",
+        "Thickness": "6mm",
+        "Dimensions": "183 x 61 cm",
+        "Weight": "1.2kg"
+      },
+      "tags": ["yoga", "fitness", "mat", "eco-friendly"],
+      "isActive": true,
+      "createdAt": "2026-01-14T11:30:00Z",
+      "updatedAt": "2026-02-20T14:00:00Z",
+      "rating": 4.6
+    },
+    {
+      "id": "11",
+      "name": "Coffee Maker Deluxe",
+      "description": "Programmable coffee maker with built-in grinder, thermal carafe, and customizable brew strength. Wake up to freshly ground coffee every morning.",
+      "shortDescription": "Programmable coffee maker with grinder",
+      "price": 18999,
+      "compareAtPrice": 24999,
+      "category": "home",
+      "categories": ["home", "kitchen", "appliances"],
+      "images": [
+        {
+          "id": "11-1",
+          "url": "/images/products/coffee-maker-1.jpg",
+          "alt": "Coffee Maker Front",
+          "isPrimary": true
+        },
+        {
+          "id": "11-2",
+          "url": "/images/products/coffee-maker-2.jpg",
+          "alt": "Coffee Maker Side",
+          "isPrimary": false
+        }
+      ],
+      "stock": 23,
+      "sku": "CMD-011",
+      "variants": [{ "id": "v11-color", "type": "color", "options": ["Black", "Stainless Steel"] }],
+      "specifications": {
+        "Capacity": "12 cups",
+        "Grinder": "Built-in conical burr",
+        "Carafe": "Double-wall thermal",
+        "Programmable": "24-hour timer"
+      },
+      "tags": ["coffee", "kitchen", "appliance", "programmable"],
+      "isActive": true,
+      "createdAt": "2026-01-09T08:00:00Z",
+      "updatedAt": "2026-02-17T10:00:00Z",
+      "rating": 4.4
+    },
+    {
+      "id": "12",
+      "name": "Denim Jacket Classic",
+      "description": "Timeless denim jacket made from premium Japanese selvedge denim. Features classic button closure, chest pockets, and comfortable regular fit.",
+      "shortDescription": "Premium Japanese selvedge denim jacket",
+      "price": 11999,
+      "compareAtPrice": null,
+      "category": "clothing",
+      "categories": ["clothing", "men", "women", "outerwear"],
+      "images": [
+        {
+          "id": "12-1",
+          "url": "/images/products/denim-jacket-1.jpg",
+          "alt": "Denim Jacket Front",
+          "isPrimary": true
+        },
+        {
+          "id": "12-2",
+          "url": "/images/products/denim-jacket-2.jpg",
+          "alt": "Denim Jacket Back",
+          "isPrimary": false
+        }
+      ],
+      "stock": 36,
+      "sku": "DJC-012",
+      "variants": [
+        { "id": "v12-size", "type": "size", "options": ["XS", "S", "M", "L", "XL"] },
+        { "id": "v12-wash", "type": "color", "options": ["Light Wash", "Medium Wash", "Dark Wash"] }
+      ],
+      "specifications": {
+        "Material": "100% Cotton Selvedge Denim",
+        "Fit": "Regular",
+        "Origin": "Made in Japan",
+        "Care": "Machine wash cold, hang dry"
+      },
+      "tags": ["denim", "jacket", "classic", "japanese"],
+      "isActive": true,
+      "createdAt": "2026-01-16T13:00:00Z",
+      "updatedAt": "2026-02-22T17:30:00Z",
+      "rating": 4.8
+    }
+  ],
+  "categories": [
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "slug": "electronics",
+      "description": "Latest gadgets and electronic devices",
+      "image": "/images/categories/electronics.jpg",
+      "parentId": null
+    },
+    {
+      "id": "audio",
+      "name": "Audio",
+      "slug": "audio",
+      "description": "Headphones, speakers, and audio accessories",
+      "image": "/images/categories/audio.jpg",
+      "parentId": "electronics"
+    },
+    {
+      "id": "wearables",
+      "name": "Wearables",
+      "slug": "wearables",
+      "description": "Smartwatches and fitness trackers",
+      "image": "/images/categories/wearables.jpg",
+      "parentId": "electronics"
+    },
+    {
+      "id": "computers",
+      "name": "Computers & Accessories",
+      "slug": "computers",
+      "description": "Keyboards, mice, and computer peripherals",
+      "image": "/images/categories/computers.jpg",
+      "parentId": "electronics"
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "slug": "clothing",
+      "description": "Apparel for men and women",
+      "image": "/images/categories/clothing.jpg",
+      "parentId": null
+    },
+    {
+      "id": "men",
+      "name": "Men's Clothing",
+      "slug": "mens-clothing",
+      "description": "Clothing for men",
+      "image": "/images/categories/mens.jpg",
+      "parentId": "clothing"
+    },
+    {
+      "id": "women",
+      "name": "Women's Clothing",
+      "slug": "womens-clothing",
+      "description": "Clothing for women",
+      "image": "/images/categories/womens.jpg",
+      "parentId": "clothing"
+    },
+    {
+      "id": "bags",
+      "name": "Bags & Luggage",
+      "slug": "bags",
+      "description": "Backpacks, bags, and travel luggage",
+      "image": "/images/categories/bags.jpg",
+      "parentId": null
+    },
+    {
+      "id": "accessories",
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "Fashion and lifestyle accessories",
+      "image": "/images/categories/accessories.jpg",
+      "parentId": null
+    },
+    {
+      "id": "lifestyle",
+      "name": "Lifestyle",
+      "slug": "lifestyle",
+      "description": "Products for everyday living",
+      "image": "/images/categories/lifestyle.jpg",
+      "parentId": null
+    }
+  ],
+  "cart": {
+    "id": "cart-1",
+    "items": [],
+    "subtotal": 0,
+    "shipping": 0,
+    "tax": 0,
+    "total": 0,
+    "createdAt": "2026-02-25T00:00:00Z",
+    "updatedAt": "2026-02-25T00:00:00Z"
+  },
+  "orders": []
+}
