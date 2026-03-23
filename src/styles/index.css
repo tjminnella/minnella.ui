@@ -53,7 +53,8 @@
 }
 
 #root {
-  /*width: 1126px;*/
+  /* 1126px is the max width of the content, but it will shrink on smaller screens */
+  width: 1126px;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -179,6 +180,12 @@ button:hover {
   visibility: visible;
   opacity: 1;
 }
+
+.navbar ul .nav-item.is-open .sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
 .footer {
     background-color: #e3e1eb;
     padding: 20px;

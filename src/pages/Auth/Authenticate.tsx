@@ -1,4 +1,4 @@
-import useAuth from '../hooks/useAuth';
+import useAuth from '../../hooks/useAuth';
 
 const Authenticate = () => {
     const { user, loading, signIn, signOut } = useAuth();

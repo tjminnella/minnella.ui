@@ -1,0 +1,17 @@
+I'm in need of a skilled freelance consultant for application development of a C# web application on the AWS cloud platform.
+
+Key Requirements:
+- Extensive experience in C# and web application development
+- Proficient in AWS services and deployment strategies
+- Capable of creating efficient, robust and scalable applications
+- Experience in system integration and data migration would be a plus
+- Strong skills in SQL and NoSQL databases
+- Experience with unit testing frameworks and methodology
+- Experience implementing CI/CD pipelines
+- Familiarity with designing and consuming RESTful APIs
+
+Best practices for scalability, security, and performance optimization
+The ideal candidate should have hands-on experience with similar projects and be available for a detailed consultation to help optimize and refine the current implementation.
+If you're interested or have relevant experience, please reach out with your portfolio or examples of similar work!
+
+The project will utilize AWS EC2 for computing and S3 for storage.
