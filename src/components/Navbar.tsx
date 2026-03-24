@@ -13,12 +13,6 @@ export const Navbar = () => {
                 <li className="nav-item">
                     <NavLink to="/products">Products</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink to="/tailwind">Tailwind</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink to="/tailwind3">Tailwind 3</NavLink>
-                </li>
                 <li className={`nav-item${isContactOpen ? " is-open" : ""}`}>
                     <button
                         type="button"

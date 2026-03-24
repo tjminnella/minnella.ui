@@ -44,9 +44,9 @@ export default function Footer() {
   };
 
   const socialLinks = [
-    { name: 'Facebook', icon: 'facebook', href: '#' },
-    { name: 'Twitter', icon: 'twitter', href: '#' },
-    { name: 'Instagram', icon: 'instagram', href: '#' },
+    { name: 'Facebook', icon: 'facebook', href: 'https://www.facebook.com/tminnella/' },
+    { name: 'X', icon: 'x', href: 'https://x.com/tjminnella' },
+    { name: 'Instagram', icon: 'instagram', href: 'https://www.instagram.com/tminnella66/' },
     { name: 'Pinterest', icon: 'pinterest', href: '#' },
     { name: 'YouTube', icon: 'youtube', href: '#' },
   ];
@@ -57,7 +57,7 @@ export default function Footer() {
       twitter: (
         <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
       ),
-      instagram: (
+      x: (
         <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 017.8 2z" />
       ),
       pinterest: (
@@ -76,14 +76,13 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-secondary-900 text-white">
+    <footer className="bg-slate-900 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">
           <div className="lg:col-span-2">
-            <h3 className="text-2xl font-bold text-primary-400 mb-4">ShopLogo</h3>
-            <p className="text-secondary-300 mb-6 max-w-sm">
-              Your one-stop shop for quality products. We offer the best selection with exceptional
-              customer service and fast shipping.
+            <h3 className="text-2xl font-bold text-blue-400 mb-4">ShopLogo</h3>
+            <p className="text-slate-300 mb-6 max-w-sm">
+              Welcome to my e-commerce store! I sell artwork and vintage items. This is a demo application built with React and TypeScript, showcasing a variety of products across different categories.
             </p>
 
             <div className="flex items-center gap-4 mb-6">
@@ -92,7 +91,7 @@ export default function Footer() {
                   key={social.name}
                   href={social.href}
                   aria-label={social.name}
-                  className="flex items-center justify-center w-10 h-10 rounded-full bg-secondary-800 text-secondary-300 hover:bg-primary-600 hover:text-white transition-all duration-200"
+                  className="flex items-center justify-center w-10 h-10 rounded-full bg-slate-800 text-slate-300 hover:bg-blue-600 hover:text-white transition-all duration-200"
                 >
                   {renderSocialIcon(social.icon)}
                 </a>
@@ -100,15 +99,15 @@ export default function Footer() {
             </div>
 
             <form onSubmit={handleSubscribe} className="space-y-3">
-              <h4 className="text-sm font-semibold text-secondary-200 uppercase tracking-wider">
-                Subscribe to our newsletter
+              <h4 className="text-sm font-semibold text-slate-200 uppercase tracking-wider">
+                Contact me.
               </h4>
-              <p className="text-sm text-secondary-400">
-                Get the latest updates, exclusive offers, and more.
+              <p className="text-sm text-slate-400">
+                Get in touch for inquiries, collaborations, or any questions you may have.
               </p>
 
               {isSubscribed ? (
-                <div className="flex items-center gap-2 text-green-400 animate-fade-in">
+                <div className="flex items-center gap-2 text-green-400 transition-opacity duration-300">
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
@@ -126,13 +125,13 @@ export default function Footer() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email"
-                    className="flex-1 min-w-0 px-4 py-2.5 rounded-lg bg-secondary-800 border border-secondary-700 text-white placeholder:text-secondary-400 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm"
+                    className="flex-1 min-w-0 px-4 py-2.5 rounded-lg bg-slate-800 border border-slate-700 text-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"
                     required
                   />
                   <button
                     type="submit"
                     disabled={isLoading}
-                    className="px-4 py-2.5 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-secondary-900 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 whitespace-nowrap"
+                    className="px-4 py-2.5 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-900 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 whitespace-nowrap"
                   >
                     {isLoading ? (
                       <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
@@ -160,7 +159,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-secondary-200 uppercase tracking-wider mb-4">
+            <h4 className="text-sm font-semibold text-slate-200 uppercase tracking-wider mb-4">
               Shop
             </h4>
             <ul className="space-y-3">
@@ -168,7 +167,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-secondary-400 hover:text-primary-400 transition-colors duration-200 text-sm"
+                    className="text-slate-400 hover:text-blue-400 transition-colors duration-200 text-sm"
                   >
                     {link.label}
                   </a>
@@ -178,7 +177,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-secondary-200 uppercase tracking-wider mb-4">
+            <h4 className="text-sm font-semibold text-slate-200 uppercase tracking-wider mb-4">
               Support
             </h4>
             <ul className="space-y-3">
@@ -186,7 +185,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-secondary-400 hover:text-primary-400 transition-colors duration-200 text-sm"
+                    className="text-slate-400 hover:text-blue-400 transition-colors duration-200 text-sm"
                   >
                     {link.label}
                   </a>
@@ -196,7 +195,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-secondary-200 uppercase tracking-wider mb-4">
+            <h4 className="text-sm font-semibold text-slate-200 uppercase tracking-wider mb-4">
               Company
             </h4>
             <ul className="space-y-3">
@@ -204,7 +203,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-secondary-400 hover:text-primary-400 transition-colors duration-200 text-sm"
+                    className="text-slate-400 hover:text-blue-400 transition-colors duration-200 text-sm"
                   >
                     {link.label}
                   </a>
@@ -214,7 +213,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-secondary-200 uppercase tracking-wider mb-4">
+            <h4 className="text-sm font-semibold text-slate-200 uppercase tracking-wider mb-4">
               Legal
             </h4>
             <ul className="space-y-3">
@@ -222,7 +221,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-secondary-400 hover:text-primary-400 transition-colors duration-200 text-sm"
+                    className="text-slate-400 hover:text-blue-400 transition-colors duration-200 text-sm"
                   >
                     {link.label}
                   </a>
@@ -232,21 +231,22 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-secondary-800">
+        <div className="mt-12 pt-8 border-t border-slate-800">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-secondary-400 text-center md:text-left">
-              © {new Date().getFullYear()} E-Commerce Prototype. All rights reserved.
+            <p className="text-sm text-slate-400 text-center md:text-left">
+              © {new Date().getFullYear()} Ownded by Thomas Minnella. All rights reserved.
             </p>
 
             <div className="flex items-center gap-6">
-              <span className="text-sm text-secondary-400">We accept:</span>
+              <span className="text-sm text-slate-400">I accept:</span>
               <div className="flex items-center gap-3">
-                {['visa', 'mastercard', 'amex', 'paypal'].map((payment) => (
+                {/*['visa', 'mastercard', 'amex', 'paypal'].map((payment) => (*/}
+                {['cash', 'cash app', 'venmo'].map((payment) => (
                   <div
                     key={payment}
-                    className="w-10 h-6 bg-secondary-800 rounded flex items-center justify-center text-xs text-secondary-400 font-medium uppercase"
+                    className="w-20 h-6 bg-slate-800 rounded flex items-center justify-center text-xs text-slate-400 font-medium uppercase"
                   >
-                    {payment.slice(0, 4)}
+                    {payment.slice(0, 8)}
                   </div>
                 ))}
               </div>
