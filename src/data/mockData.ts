@@ -45,10 +45,10 @@ export const categories: Category[] = [
 export const products: Product[] = [
   {
     id: '1',
-    name: 'Wireless Headphones',
+    name: 'Cat Picture',
     description:
-      'Premium noise-cancelling wireless headphones with 30-hour battery life and superior sound quality',
-    shortDescription: 'Premium noise-cancelling wireless headphones',
+      'Beautiful cat artwork, perfect for home or office decor',
+    shortDescription: 'Beautiful cat artwork',
     price: 29999,
     compareAtPrice: 34999,
     category: 'electronics',
@@ -56,13 +56,13 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-1-1',
-        url: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
         alt: 'Wireless Headphones - Front View',
         isPrimary: true,
       },
       {
         id: 'img-1-2',
-        url: 'https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
         alt: 'Wireless Headphones - Side View',
         isPrimary: false,
       },
@@ -83,17 +83,17 @@ export const products: Product[] = [
   },
   {
     id: '2',
-    name: 'Smart Watch Pro',
+    name: 'Elephant Bookend',
     description:
-      'Advanced fitness tracking smartwatch with heart rate monitor, GPS, and 7-day battery life',
-    shortDescription: 'Advanced fitness tracking smartwatch',
+      'Beautiful elephant bookend, perfect for home or office decor',
+    shortDescription: 'Beautiful elephant bookend',
     price: 39999,
     category: 'electronics',
     categories: ['electronics'],
     images: [
       {
         id: 'img-2-1',
-        url: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/ElephantBookend.jpeg?w=800',
         alt: 'Smart Watch Pro',
         isPrimary: true,
       },
@@ -114,7 +114,7 @@ export const products: Product[] = [
   },
   {
     id: '3',
-    name: 'Laptop Backpack',
+    name: 'Jad Elephant',
     description:
       'Durable water-resistant backpack with padded laptop compartment up to 15.6 inches',
     shortDescription: 'Durable water-resistant laptop backpack',
@@ -124,7 +124,7 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-3-1',
-        url: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/ElephantJade.jpeg?w=800',
         alt: 'Laptop Backpack',
         isPrimary: true,
       },
@@ -145,18 +145,18 @@ export const products: Product[] = [
   },
   {
     id: '4',
-    name: 'Mechanical Keyboard',
+    name: 'Fairy Statue',
     description:
-      'RGB backlit mechanical keyboard with blue switches, perfect for gaming and typing',
-    shortDescription: 'RGB mechanical keyboard with blue switches',
+      'Elegant fairy statue, perfect for home or garden decoration',
+    shortDescription: 'Elegant fairy statue',
     price: 12999,
-    category: 'electronics',
-    categories: ['electronics'],
+    category: 'home',
+    categories: ['home'],
     images: [
       {
         id: 'img-4-1',
-        url: 'https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800',
-        alt: 'Mechanical Keyboard',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/FarieStatue.jpeg?w=800',
+        alt: 'Fairy Statue',
         isPrimary: true,
       },
     ],
@@ -176,16 +176,16 @@ export const products: Product[] = [
   },
   {
     id: '5',
-    name: 'Cotton T-Shirt',
-    description: 'Comfortable 100% organic cotton t-shirt, available in multiple sizes and colors',
-    shortDescription: '100% organic cotton t-shirt',
+    name: 'Flower Picture',
+    description: 'Beautiful flower artwork, perfect for home or office decor',
+    shortDescription: 'Beautiful flower artwork',
     price: 2499,
     category: 'clothing',
     categories: ['clothing'],
     images: [
       {
         id: 'img-5-1',
-        url: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/flowerPicture.jpeg?w=800',
         alt: 'Cotton T-Shirt',
         isPrimary: true,
       },
@@ -217,17 +217,17 @@ export const products: Product[] = [
   },
   {
     id: '6',
-    name: 'Denim Jeans',
-    description: 'Classic fit denim jeans with stretch comfort, perfect for everyday wear',
-    shortDescription: 'Classic fit denim jeans with stretch',
+    name: 'Landscape Picture',
+    description: 'Beautiful landscape artwork, perfect for home or office decor',
+    shortDescription: 'Beautiful landscape artwork',
     price: 5999,
     category: 'clothing',
     categories: ['clothing'],
     images: [
       {
         id: 'img-6-1',
-        url: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=800',
-        alt: 'Denim Jeans',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/LandscapePicture.jpeg?w=800',
+        alt: 'Landscape Picture',
         isPrimary: true,
       },
     ],
@@ -258,7 +258,7 @@ export const products: Product[] = [
   },
   {
     id: '7',
-    name: 'Running Shoes',
+    name: 'Small Picture',
     description:
       'Lightweight running shoes with cushioned sole for maximum comfort during workouts',
     shortDescription: 'Lightweight cushioned running shoes',
@@ -268,7 +268,7 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-7-1',
-        url: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/SmallPicture.jpeg?w=800',
         alt: 'Running Shoes',
         isPrimary: true,
       },
@@ -300,7 +300,7 @@ export const products: Product[] = [
   },
   {
     id: '8',
-    name: 'Winter Jacket',
+    name: 'Vanity Desk',
     description: 'Warm insulated jacket for cold weather with water-resistant outer shell',
     shortDescription: 'Warm insulated winter jacket',
     price: 14999,
@@ -309,8 +309,8 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-8-1',
-        url: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800',
-        alt: 'Winter Jacket',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/VanityDesk.jpeg?w=800',
+        alt: 'Vanity Desk',
         isPrimary: true,
       },
     ],
@@ -350,7 +350,7 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-9-1',
-        url: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
         alt: 'The Great Gatsby Book Cover',
         isPrimary: true,
       },
@@ -372,7 +372,7 @@ export const products: Product[] = [
   {
     id: '10',
     name: 'Thinking, Fast and Slow',
-    description: 'Bestselling book on behavioral economics and decision-making by Daniel Kahneman',
+    description: 'Classic American novel by F. Scott Fitzgerald, a timeless tale of the Jazz Age',
     shortDescription: 'Behavioral economics by Daniel Kahneman',
     price: 1899,
     category: 'books',
@@ -380,7 +380,7 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-10-1',
-        url: 'https://images.unsplash.com/photo-1589998059171-988d887df646?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
         alt: 'Thinking Fast and Slow Book Cover',
         isPrimary: true,
       },
@@ -411,7 +411,7 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-11-1',
-        url: 'https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
         alt: 'Ceramic Plant Pot',
         isPrimary: true,
       },
@@ -453,7 +453,7 @@ export const products: Product[] = [
     images: [
       {
         id: 'img-12-1',
-        url: 'https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800',
+        url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
         alt: 'LED Desk Lamp',
         isPrimary: true,
       },

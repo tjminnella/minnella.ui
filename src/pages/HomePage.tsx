@@ -32,10 +32,9 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="bg-linear-to-r from-blue-600 to-indigo-700 text-white rounded-2xl p-8 md:p-12 shadow-lg">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Welcome to Our Store</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Welcome to my Store</h1>
           <p className="text-lg md:text-xl text-blue-100 mb-6">
-            Discover amazing products at great prices. From electronics to fashion, we have
-            everything you need.
+            Welcome to my e-commerce store! This is a demo application built with React and TypeScript, showcasing a variety of products across different categories. Browse our featured products, explore by category, and enjoy a seamless shopping experience. Happy shopping!
           </p>
           <Link
             to="/products"
