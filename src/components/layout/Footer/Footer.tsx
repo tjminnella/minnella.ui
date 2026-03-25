@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <h3 className="text-2xl font-bold text-blue-400 mb-4">ShopLogo</h3>
             <p className="text-slate-300 mb-6 max-w-sm">
-              Welcome to my e-commerce store! I sell artwork and vintage items. This is a demo application built with React and TypeScript, showcasing a variety of products across different categories.
+              Welcome to my e-commerce store! I sell artwork and vintage items.
             </p>
 
             <div className="flex items-center gap-4 mb-6">

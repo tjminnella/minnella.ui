@@ -5,18 +5,18 @@ import type { Product, Category } from '../types';
 
 export const categories: Category[] = [
   {
-    id: 'electronics',
-    name: 'Electronics',
-    slug: 'electronics',
-    description: 'Electronic devices and gadgets',
+    id: 'paintings',
+    name: 'Paintings',
+    slug: 'paintings',
+    description: 'Painting devices and gadgets',
     image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400',
     isActive: true,
     sortOrder: 1,
   },
   {
-    id: 'clothing',
-    name: 'Clothing',
-    slug: 'clothing',
+    id: 'figurine',
+    name: 'Figurine',
+    slug: 'figurine',
     description: 'Fashion and apparel',
     image: 'https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=400',
     isActive: true,
@@ -32,9 +32,9 @@ export const categories: Category[] = [
     sortOrder: 3,
   },
   {
-    id: 'home',
+    id: 'furniture',
     name: 'Home & Garden',
-    slug: 'home',
+    slug: 'furniture',
     description: 'Home decor and garden supplies',
     image: 'https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=400',
     isActive: true,
@@ -47,33 +47,33 @@ export const products: Product[] = [
     id: '1',
     name: 'Cat Picture',
     description:
-      'Beautiful cat artwork, perfect for home or office decor',
+      'Beautiful cat artwork, perfect for furniture or office decor',
     shortDescription: 'Beautiful cat artwork',
-    price: 29999,
-    compareAtPrice: 34999,
-    category: 'electronics',
-    categories: ['electronics'],
+    price: 2999,
+    compareAtPrice: 3499,
+    category: 'paintings',
+    categories: ['paintings'],
     images: [
       {
         id: 'img-1-1',
         url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
-        alt: 'Wireless Headphones - Front View',
+        alt: 'Cat Picture - Front View',
         isPrimary: true,
       },
       {
         id: 'img-1-2',
         url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/CatPicture.jpeg?w=800',
-        alt: 'Wireless Headphones - Side View',
+        alt: 'Cat Picture - Side View',
         isPrimary: false,
       },
     ],
     stock: 50,
     sku: 'WH-001',
     specifications: {
-      'Battery Life': '30 hours',
-      Connectivity: 'Bluetooth 5.0',
+      'Oil': 'Canvas',
+      Connectivity: 'Cat Picture',
       Weight: '250g',
-      Warranty: '2 years',
+      Warranty: '0',
     },
     tags: ['audio', 'wireless', 'premium'],
     isActive: true,
@@ -85,11 +85,11 @@ export const products: Product[] = [
     id: '2',
     name: 'Elephant Bookend',
     description:
-      'Beautiful elephant bookend, perfect for home or office decor',
+      'Beautiful elephant bookend, perfect for furniture or office decor',
     shortDescription: 'Beautiful elephant bookend',
-    price: 39999,
-    category: 'electronics',
-    categories: ['electronics'],
+    price: 3999,
+    category: 'paintings',
+    categories: ['paintings'],
     images: [
       {
         id: 'img-2-1',
@@ -102,11 +102,10 @@ export const products: Product[] = [
     sku: 'SW-002',
     specifications: {
       Display: '1.4" AMOLED',
-      Battery: '7 days',
       'Water Resistance': '5 ATM',
-      Sensors: 'Heart rate, GPS, Accelerometer',
+      Size: '3 feet by 2 feet',
     },
-    tags: ['wearable', 'fitness', 'smart'],
+    tags: ['painting', 'decor', 'art'],
     isActive: true,
     createdAt: '2026-01-01T00:00:00Z',
     updatedAt: '2026-02-25T00:00:00Z',
@@ -114,13 +113,13 @@ export const products: Product[] = [
   },
   {
     id: '3',
-    name: 'Jad Elephant',
+    name: 'Jade Elephant',
     description:
-      'Durable water-resistant backpack with padded laptop compartment up to 15.6 inches',
-    shortDescription: 'Durable water-resistant laptop backpack',
-    price: 7999,
-    category: 'electronics',
-    categories: ['electronics'],
+      'Beautiful jade elephant sculpture, perfect for furniture or office decor',
+    shortDescription: 'Beautiful jade elephant sculpture',
+    price: 2000,
+    category: 'paintings',
+    categories: ['paintings'],
     images: [
       {
         id: 'img-3-1',
@@ -147,11 +146,11 @@ export const products: Product[] = [
     id: '4',
     name: 'Fairy Statue',
     description:
-      'Elegant fairy statue, perfect for home or garden decoration',
+      'Elegant fairy statue, perfect for furniture or garden decoration',
     shortDescription: 'Elegant fairy statue',
-    price: 12999,
-    category: 'home',
-    categories: ['home'],
+    price: 1299,
+    category: 'figurine',
+    categories: ['figurine'],
     images: [
       {
         id: 'img-4-1',
@@ -164,11 +163,10 @@ export const products: Product[] = [
     sku: 'KB-004',
     specifications: {
       'Switch Type': 'Blue Mechanical',
-      Backlight: 'RGB',
-      Connection: 'USB-C',
-      Keys: '104 keys',
+      Size: '4 inches',
+      Material: 'Resin'
     },
-    tags: ['gaming', 'peripherals'],
+    tags: ['figurine', 'decor'],
     isActive: true,
     createdAt: '2026-01-01T00:00:00Z',
     updatedAt: '2026-02-25T00:00:00Z',
@@ -177,16 +175,16 @@ export const products: Product[] = [
   {
     id: '5',
     name: 'Flower Picture',
-    description: 'Beautiful flower artwork, perfect for home or office decor',
+    description: 'Beautiful flower artwork, perfect for furniture or office decor',
     shortDescription: 'Beautiful flower artwork',
     price: 2499,
-    category: 'clothing',
-    categories: ['clothing'],
+    category: 'paintings',
+    categories: ['paintings'],
     images: [
       {
         id: 'img-5-1',
         url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/flowerPicture.jpeg?w=800',
-        alt: 'Cotton T-Shirt',
+        alt: 'Flower Picture',
         isPrimary: true,
       },
     ],
@@ -218,11 +216,11 @@ export const products: Product[] = [
   {
     id: '6',
     name: 'Landscape Picture',
-    description: 'Beautiful landscape artwork, perfect for home or office decor',
+    description: 'Beautiful landscape artwork, perfect for furniture or office decor',
     shortDescription: 'Beautiful landscape artwork',
-    price: 5999,
-    category: 'clothing',
-    categories: ['clothing'],
+    price: 2599,
+    category: 'paintings',
+    categories: ['paintings'],
     images: [
       {
         id: 'img-6-1',
@@ -246,11 +244,11 @@ export const products: Product[] = [
       },
     ],
     specifications: {
-      Material: '98% Cotton, 2% Elastane',
+      Material: 'Oil on wood panel',
       Fit: 'Classic',
       Rise: 'Mid-rise',
     },
-    tags: ['denim', 'casual'],
+    tags: ['paintings', 'art', 'decor'],
     isActive: true,
     createdAt: '2026-01-01T00:00:00Z',
     updatedAt: '2026-02-25T00:00:00Z',
@@ -260,16 +258,16 @@ export const products: Product[] = [
     id: '7',
     name: 'Small Picture',
     description:
-      'Lightweight running shoes with cushioned sole for maximum comfort during workouts',
-    shortDescription: 'Lightweight cushioned running shoes',
-    price: 8999,
-    category: 'clothing',
-    categories: ['clothing'],
+      'Beautiful small artwork, perfect for furniture or office decor',
+    shortDescription: 'Beautiful small artwork',
+    price: 899,
+    category: 'paintings',
+    categories: ['paintings'],
     images: [
       {
         id: 'img-7-1',
         url: 'https://s3.us-east-1.amazonaws.com/tjminnella.com/SmallPicture.jpeg?w=800',
-        alt: 'Running Shoes',
+        alt: 'Small Picture',
         isPrimary: true,
       },
     ],
@@ -301,11 +299,11 @@ export const products: Product[] = [
   {
     id: '8',
     name: 'Vanity Desk',
-    description: 'Warm insulated jacket for cold weather with water-resistant outer shell',
-    shortDescription: 'Warm insulated winter jacket',
+    description: 'Wood Vanity desk storage, perfect for bedroom or dressing area',
+    shortDescription: 'Vanity desk',
     price: 14999,
-    category: 'clothing',
-    categories: ['clothing'],
+    category: 'furniture',
+    categories: ['furniture'],
     images: [
       {
         id: 'img-8-1',
@@ -406,8 +404,8 @@ export const products: Product[] = [
       'Handmade ceramic pot perfect for indoor plants, available in multiple sizes and colors',
     shortDescription: 'Handmade ceramic plant pot',
     price: 3499,
-    category: 'home',
-    categories: ['home'],
+    category: 'furniture',
+    categories: ['furniture'],
     images: [
       {
         id: 'img-11-1',
@@ -448,8 +446,8 @@ export const products: Product[] = [
       'Adjustable LED desk lamp with touch control, USB charging port, and multiple brightness levels',
     shortDescription: 'Adjustable LED lamp with touch control',
     price: 4999,
-    category: 'home',
-    categories: ['home'],
+    category: 'furniture',
+    categories: ['furniture'],
     images: [
       {
         id: 'img-12-1',

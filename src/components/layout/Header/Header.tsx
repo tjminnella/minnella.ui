@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useCartStore, type CartState } from '../../../store/cartStore';
 import type { CartItem, ProductImage } from '../../../types';
 import type { Category } from '../../../types/category.types';
+import logoGif from '../../../assets/logo.gif';
 import SearchBar from '../../common/SearchBar/SearchBar';
 import CategoryMenu from './CategoryMenu';
 import MobileMenu from './MobileMenu';
@@ -77,8 +78,8 @@ export default function Header() {
                 </svg>
               </button>
 
-              <Link to="/" className="text-xl font-bold text-primary-600 flex-shrink-0">
-                ShopLogo
+              <Link to="/" className="shrink-0" aria-label="Shop home">
+                <img src={logoGif} alt="Shop logo" className="h-10 w-auto object-contain" />
               </Link>
 
               <CategoryMenu categories={CATEGORIES} />
@@ -152,7 +153,7 @@ export default function Header() {
                                 key={item.id}
                                 className="flex gap-3 p-3 border-b border-secondary-100 last:border-0"
                               >
-                                <div className="w-16 h-16 bg-secondary-100 rounded-md overflow-hidden flex-shrink-0">
+                                <div className="w-16 h-16 bg-secondary-100 rounded-md overflow-hidden shrink-0">
                                   <img
                                     src={primaryImage?.url || '/images/placeholder.jpg'}
                                     alt={primaryImage?.alt || item.product.name}
@@ -181,7 +182,7 @@ export default function Header() {
                                 </div>
                                 <button
                                   onClick={(e) => handleRemoveFromDropdown(item.id, e)}
-                                  className="text-secondary-400 hover:text-red-600 flex-shrink-0 transition-colors"
+                                  className="text-secondary-400 hover:text-red-600 shrink-0 transition-colors"
                                 >
                                   <svg
                                     className="w-4 h-4"
